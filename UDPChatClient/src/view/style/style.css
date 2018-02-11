@@ -1,0 +1,104 @@
+.root {
+    -fx-background-size: cover, auto;
+    -fx-background-color: #2c2c2c;
+    -fx-text-fill: white;
+}
+.label {
+    -fx-text-fill: white;
+}
+.button {
+    -fx-min-width: 100px;
+}
+#Header {
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+    -fx-padding: -5;
+}/*
+.text-field, .list-view {
+    -fx-control-inner-background: #4d4d4d;
+    -fx-border-color: black;
+    -fx-focus-color: #4d4d4d;
+    -fx-faint-focus-color: #4d4d4d;
+    -fx-background-color: -fx-faint-focus-color, -fx-focus-color, -fx-inner-border, -fx-body-color;
+}*/
+
+#Timestamp .scroll-bar {
+    -fx-opacity: 0;
+    -fx-padding:-7;
+}
+
+/*Removing background of whole table-view, and setting pref width*/
+/*.table-view{
+    -fx-text-fill: white;
+    -fx-dark-text-color: white;
+    -fx-mid-text-color: white;
+    -fx-light-text-color: white;
+    -fx-table-cell-border-color:#2c2c2c;
+    -fx-background-color: #2c2c2c;
+    -fx-border-color: #2c2c2c;
+}
+
+
+/*Removing background for column header row*/
+/*.table-view .column-header-background{
+    -fx-background-color: #2c2c2c;
+    -fx-border-color: #2c2c2c;}
+
+
+/*Background colour of column headers*/
+/*.table-view .column-header{
+    -fx-background-color: #2c2c2c;
+    -fx-background-radius: 5;
+}
+
+/*Textstyle of column headers*/
+/*.table-view .column-header-background .label{
+    -fx-background-color: #2c2c2c;
+    -fx-border-color: #2c2c2c;}
+.table-view .filler{
+    -fx-background-color: transparent;
+}
+
+/*Removing glow when table-view is selection*/
+/*.table-view:focused{
+    -fx-background-color: #2c2c2c;
+    -fx-border-color: #2c2c2c;
+}
+
+/*Setting opacity of increment- and decrement buttons*/
+/*.table-view > .virtual-flow > .scroll-bar > .increment-button,
+.table-view > .virtual-flow > .scroll-bar > .decrement-button{
+    -fx-opacity: 0;
+}
+
+/*Background of scrollbars set to transparent*/
+/*.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:horizontal{
+    -fx-background-color: transparent;
+    -fx-fill: #1abc9c;
+}
+
+/*Setting colour of the scroll-bar itself*/
+/*.table-view .virtual-flow .thumb{
+    -fx-background-color: #575757;
+}
+.table-row-cell {
+    -fx-background-color: #575757;
+}
+#Chatinput {
+    -fx-background-color: #575757;
+    -fx-text-fill: white;
+}
+
+
+.list-cell:filled:hover {
+    -fx-cell-hover-color: #0093ff;
+    -fx-text-fill: white;
+}
+.list-cell {
+    -fx-background-color: #575757;
+    -fx-text-fill:white;
+}
+.list-cell {
+    -fx-background-insets: 0;
+}*/

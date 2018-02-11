@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UDPChatClient.iml" filepath="$PROJECT_DIR$/UDPChatClient.iml" />
+    </modules>
+  </component>
+</project>
